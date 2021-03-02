@@ -1,0 +1,17 @@
+{
+  "name": "ts_lection1",
+  "version": "0.0.1",
+  "description": "Test project calculator",
+  "scripts": {
+    "buildTs": "tsc testCalculator.ts",
+    "buildJs": "node ./testCalculator.js"
+  },
+  "author": "Olga Lebedeva",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31"
+  }
+}
